@@ -43,7 +43,7 @@ a{
     align-items: center; /* Align items vertically */
     gap: 20px; /* Space between image and text section */
     margin: 20px 0; /* Vertical margin for spacing around the common section */
-    border: 1px solid black; /* Optional: border to visually separate the container */
+    /* border: 1px solid black; Optional: border to visually separate the container */
     padding: 10px; /* Optional padding inside the common container */
     
 }
@@ -95,7 +95,7 @@ p{
 }
 
 .cart{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 15%;
     height: 300px;
     display: inline-block;
