@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Noto Sans", sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    /* border: 2px solid black;  */
+    max-width:1300px;
+    margin: auto;
+   
+}
+#logo{
+    margin-right: 150px;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+#b1{
+    background-color: rgb(177, 229, 14);
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    margin-left: 40px;
+   
+}
+
+a{
+    text-decoration: none; /*To remove underline from the anchor tag*/
+    color: black;
+    margin-left: 40px;
+}
+
+
+/* Common container styling for both sections */
+.common {
+    display: flex; /* Flexbox for horizontal alignment */
+    align-items: center; /* Align items vertically */
+    gap: 20px; /* Space between image and text section */
+    margin: 20px 0; /* Vertical margin for spacing around the common section */
+    border: 1px solid black; /* Optional: border to visually separate the container */
+    padding: 10px; /* Optional padding inside the common container */
+    
+}
+
+
+/* .both_section_container{
+    display: inline-block;
+    border: 1px solid black;
+    overflow: hidden;
+} */
+.common img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container */
+    width: 500px;
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 20px;
+}
+h4{
+    text-align:left;
+    width: 400px;
+    
+    margin-left: 50px;
+    /* background-color: yellow; */
+    
+    
+}
+p{
+  text-align: left;
+  /* background-color:green; */
+  margin-left: 50px;
+  width: 380px; 
+  margin-top: 20px;
+  font-size: small;
+}
+
+/* This is the section part */
+.container{
+    margin-left: 50px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    
+}
+.headings{
+    margin-left: 10px;
+}
+
+.carts{
+    margin-top: 30px;
+    margin-left: -40px;
+}
+
+.cart{
+    border: 1px solid black;
+    width: 15%;
+    height: 300px;
+    display: inline-block;
+    margin: 10px;
+    overflow: hidden;
+    margin-left: 40px;
+}
+
+.cart img{
+    padding: 20px;
+    border: 1px solid black;
+    overflow: hidden;
+    max-width:100%;
+        
+}
+
+.paragraph_content {
+    /* padding: 10px; */
+    border: 1px solid black;
+    overflow: hidden;
+    text-align: left; 
+    /* height: 100%; Ensure the content takes up full height of the container */
+    display: flex; 
+}
+
+.paragraph_content p{
+    margin: 0;
+}
